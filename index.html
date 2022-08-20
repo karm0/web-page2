@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/css.css">
+    <script src="https://kit.fontawesome.com/fe25e1c65d.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    
+</style>
+<body>
+    <div class="container disable">
+        <h1>image editor</h1>
+        <div class="all">
+            <div class="editor-panel">
+                <div class="filter">
+                    <label class="title">filters</label>
+                    <div class="options">
+                        <button id="brightness" class="active">brightness</button>
+                        <button id="suturation">suturation</button>
+                        <button id="inversion">inversion</button>
+                        <button id="grayscale">grayscale</button>
+                    </div>
+                    <div class="slider">
+                        <div class="filter-info">
+                            <p class="name">brightness</p>
+                            <p class="value">100%</p>
+                        </div>
+                        <input type="range" value="100" min="0" max="200">
+                    </div>
+                </div>
+                <div class="rotate">
+                    <label class="title">rotate & flip</label>
+                    <div class="option">
+                        <button id="left"><i class="fa-solid fa-rotate-left"></i></button>
+                        <button id="right"><i class="fa-solid fa-rotate-right"></i></button>
+                        <button id="horizontal"><i class="fa-solid fa-right-left"></i></button>
+                        <button id="vertical"><i class="fa-solid fa-arrows-up-down"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="imges">
+                <img src="img/add-photos-icon-trendy-modern-260nw-1221897943.png">
+            </div>
+        </div>
+        <div class="controls">
+            <button class="reset">reset filters</button>
+            <div class="row">
+                <input type="file" class="file-input" accept="image/*" hidden>
+                <button class="choose-img">choose-img</button>
+                <button class="save-img">save img</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/js.js"></script>
+</body>
+</html>
