@@ -128,7 +128,7 @@ html,body{
         flex-direction: column;
     }
     .editor-panel{
-        width: fit-content;
+        width: 80%;
         margin: auto;
     }
     .imges{
@@ -146,5 +146,8 @@ html,body{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .container{
+        width: 90%;
     }
 }
